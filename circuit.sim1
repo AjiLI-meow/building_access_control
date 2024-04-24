@@ -1,0 +1,181 @@
+<circuit version="1.1.0-SR0" rev="2278" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Mega-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-52,-180" rotation="0" hflip="1" vflip="1" label="Mega-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega2560-63" Frequency="16 MHz" Program="miniprojet.hex" Auto_Load="false" saveEepr="true" SerialMon="-1" />
+</item>
+
+<item itemtype="LedRgb" CircId="LedRgb-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-84" rotation="0" hflip="-1" vflip="1" label="LedRgb-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="AudioOut" CircId="AudioOut-8" mainComp="false" Show_id="true" Show_Val="false" Pos="-160,116" rotation="0" hflip="-1" vflip="1" label="AudioOut-8" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="8 Ω" />
+
+<item itemtype="KeyPad" CircId="KeyPad-9" mainComp="false" Show_id="false" Show_Val="false" Pos="188,-108" rotation="0" hflip="1" vflip="1" label="KeyPad-9" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4" Cols="3" Key_Labels="123456789*0#" />
+
+<item itemtype="LDR" CircId="LDR-10" mainComp="false" Show_id="true" Show_Val="false" Pos="216,44" rotation="0" hflip="1" vflip="1" label="LDR-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Lux="42 Lux" Min_Lux="1e-12 Lux" Max_Lux="1000 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" Slider="false" Scale="1" />
+
+<item itemtype="DS1307" CircId="DS1307-11" mainComp="false" Show_id="true" Show_Val="false" Pos="168,-180" rotation="0" hflip="1" vflip="1" label="DS1307-11" idLabPos="-20,-34" labelrot="0" valLabPos="-16,20" valLabRot="0" Time_Updtd="true" />
+
+<item itemtype="Aip31068_i2c" CircId="Aip31068_i2c-12" mainComp="false" Show_id="true" Show_Val="false" Pos="-80,-204" rotation="0" hflip="1" vflip="1" label="Aip31068_i2c-12" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="20" Control_Code="62" Frequency="100 _kHz" />
+
+<item itemtype="SerialPort" CircId="SerialPort-16" mainComp="false" Show_id="true" Show_Val="false" Pos="-292,-132" rotation="0" hflip="-1" vflip="1" label="SerialPort-16" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Auto="false" Port="COM10" Baudrate="9600 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-21" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,-68" rotation="0" hflip="1" vflip="1" label="ResistorDip-21" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="3" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="Resistor" CircId="Resistor-30" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="144,44" rotation="0" hflip="1" vflip="1" label="Resistor-30" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="LedRgb" CircId="LedRgb-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-44" rotation="0" hflip="-1" vflip="1" label="LedRgb-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-39" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,-28" rotation="0" hflip="1" vflip="1" label="ResistorDip-39" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="3" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="LedRgb" CircId="LedRgb-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,-8" rotation="0" hflip="-1" vflip="1" label="LedRgb-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-41" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,8" rotation="0" hflip="1" vflip="1" label="ResistorDip-41" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="3" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="LedRgb" CircId="LedRgb-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,28" rotation="0" hflip="-1" vflip="1" label="LedRgb-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-43" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,44" rotation="0" hflip="1" vflip="1" label="ResistorDip-43" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="3" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="LedRgb" CircId="LedRgb-44" mainComp="false" Show_id="false" Show_Val="false" Pos="-236,68" rotation="0" hflip="-1" vflip="1" label="LedRgb-44" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="ResistorDip" CircId="ResistorDip-45" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,84" rotation="0" hflip="1" vflip="1" label="ResistorDip-45" idLabPos="-24,-40" labelrot="0" valLabPos="4,-26" valLabRot="90" Resistance="100 Ω" Size="3" PullUp="false" PuVolt="5 V" />
+
+<item itemtype="Node" CircId="Node-28" mainComp="false" Pos="-64,-192" />
+
+<item itemtype="Node" CircId="Node-29" mainComp="false" Pos="-56,-184" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="180,44" />
+
+<item itemtype="Node" CircId="Node-48" mainComp="false" Pos="-92,116" />
+
+<item itemtype="Node" CircId="Node-49" mainComp="false" Pos="-292,-44" />
+
+<item itemtype="Node" CircId="Node-50" mainComp="false" Pos="-292,-8" />
+
+<item itemtype="Node" CircId="Node-51" mainComp="false" Pos="-292,28" />
+
+<item itemtype="Node" CircId="Node-52" mainComp="false" Pos="-292,68" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="LedRgb-3-Pin0" endpinid="ResistorDip-21-resistor0-ePin0" pointList="-220,-92,-140,-92" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="LedRgb-3-Pin1" endpinid="ResistorDip-21-resistor1-ePin2" pointList="-220,-84,-140,-84" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="LedRgb-3-Pin2" endpinid="ResistorDip-21-resistor2-ePin4" pointList="-220,-76,-140,-76" />
+
+<item itemtype="Connector" uid="Connector-84" startpinid="DS1307-11-PinSDA" endpinid="Node-28-1" pointList="132,-192,-64,-192" />
+
+<item itemtype="Connector" uid="Connector-85" startpinid="Aip31068_i2c-12PinSDA" endpinid="Node-28-0" pointList="-64,-196,-64,-192" />
+
+<item itemtype="Connector" uid="Connector-86" startpinid="Node-28-2" endpinid="Mega-1-20" pointList="-64,-192,-64,-124,-44,-124" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="DS1307-11-PinSCL" endpinid="Node-29-1" pointList="132,-184,-56,-184" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="Aip31068_i2c-12PinSCL" endpinid="Node-29-0" pointList="-56,-196,-56,-184" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Node-29-2" endpinid="Mega-1-21" pointList="-56,-184,-56,-132,-44,-132" />
+
+<item itemtype="Connector" uid="Connector-100" startpinid="Mega-1-A1" endpinid="KeyPad-9-Pin6" pointList="100,-20,220,-20,220,-36" />
+
+<item itemtype="Connector" uid="Connector-114" startpinid="KeyPad-9-Pin5" endpinid="Mega-1-A2" pointList="204,-36,204,-28,100,-28" />
+
+<item itemtype="Connector" uid="Connector-115" startpinid="KeyPad-9-Pin4" endpinid="Mega-1-A3" pointList="188,-36,100,-36" />
+
+<item itemtype="Connector" uid="Connector-117" startpinid="KeyPad-9-Pin1" endpinid="Mega-1-A13" pointList="236,-84,252,-84,252,-124,100,-124" />
+
+<item itemtype="Connector" uid="Connector-118" startpinid="KeyPad-9-Pin2" endpinid="Mega-1-A14" pointList="236,-68,260,-68,260,-132,100,-132" />
+
+<item itemtype="Connector" uid="Connector-125" startpinid="Mega-1-5V00" endpinid="Resistor-30-lPin" pointList="100,28,120,28,120,44,128,44" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="Mega-1-GND1" endpinid="LDR-10-rPin" pointList="100,12,252,12,252,44,232,44" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="Node-35-1" endpinid="Mega-1-A0" pointList="180,44,180,84,260,84,260,-12,100,-12" />
+
+<item itemtype="Connector" uid="Connector-128" startpinid="Resistor-30-rPin" endpinid="Node-35-0" pointList="160,44,180,44" />
+
+<item itemtype="Connector" uid="Connector-129" startpinid="Node-35-2" endpinid="LDR-10-lPin" pointList="180,44,200,44" />
+
+<item itemtype="Connector" uid="Connector-143" startpinid="LedRgb-38-Pin1" endpinid="ResistorDip-39-resistor1-ePin2" pointList="-220,-44,-140,-44" />
+
+<item itemtype="Connector" uid="Connector-144" startpinid="LedRgb-38-Pin2" endpinid="ResistorDip-39-resistor2-ePin4" pointList="-220,-36,-140,-36" />
+
+<item itemtype="Connector" uid="Connector-145" startpinid="LedRgb-38-Pin0" endpinid="ResistorDip-39-resistor0-ePin0" pointList="-220,-52,-140,-52" />
+
+<item itemtype="Connector" uid="Connector-146" startpinid="LedRgb-40-Pin1" endpinid="ResistorDip-41-resistor1-ePin2" pointList="-220,-8,-140,-8" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="LedRgb-40-Pin2" endpinid="ResistorDip-41-resistor2-ePin4" pointList="-220,0,-140,0" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="LedRgb-40-Pin0" endpinid="ResistorDip-41-resistor0-ePin0" pointList="-220,-16,-140,-16" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="LedRgb-42-Pin1" endpinid="ResistorDip-43-resistor1-ePin2" pointList="-220,28,-140,28" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="LedRgb-42-Pin2" endpinid="ResistorDip-43-resistor2-ePin4" pointList="-220,36,-140,36" />
+
+<item itemtype="Connector" uid="Connector-151" startpinid="LedRgb-42-Pin0" endpinid="ResistorDip-43-resistor0-ePin0" pointList="-220,20,-140,20" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="LedRgb-44-Pin1" endpinid="ResistorDip-45-resistor1-ePin2" pointList="-220,68,-140,68" />
+
+<item itemtype="Connector" uid="Connector-153" startpinid="LedRgb-44-Pin2" endpinid="ResistorDip-45-resistor2-ePin4" pointList="-220,76,-140,76" />
+
+<item itemtype="Connector" uid="Connector-154" startpinid="LedRgb-44-Pin0" endpinid="ResistorDip-45-resistor0-ePin0" pointList="-220,60,-140,60" />
+
+<item itemtype="Connector" uid="Connector-167" startpinid="ResistorDip-21-resistor0-ePin1" endpinid="Mega-1-16" pointList="-108,-92,-44,-92" />
+
+<item itemtype="Connector" uid="Connector-168" startpinid="ResistorDip-21-resistor1-ePin3" endpinid="Mega-1-15" pointList="-108,-84,-44,-84" />
+
+<item itemtype="Connector" uid="Connector-169" startpinid="ResistorDip-21-resistor2-ePin5" endpinid="Mega-1-14" pointList="-108,-76,-44,-76" />
+
+<item itemtype="Connector" uid="Connector-172" startpinid="ResistorDip-39-resistor2-ePin5" endpinid="Mega-1-2" pointList="-108,-36,-64,-36,-64,-44,-44,-44" />
+
+<item itemtype="Connector" uid="Connector-176" startpinid="ResistorDip-41-resistor0-ePin1" endpinid="Mega-1-3" pointList="-108,-16,-60,-16,-60,-36,-44,-36" />
+
+<item itemtype="Connector" uid="Connector-177" startpinid="ResistorDip-41-resistor1-ePin3" endpinid="Mega-1-4" pointList="-108,-8,-56,-8,-56,-28,-44,-28" />
+
+<item itemtype="Connector" uid="Connector-178" startpinid="ResistorDip-41-resistor2-ePin5" endpinid="Mega-1-5" pointList="-108,0,-52,0,-52,-20,-44,-20" />
+
+<item itemtype="Connector" uid="Connector-180" startpinid="AudioOut-8-lPin" endpinid="Mega-1-13" pointList="-144,108,-60,108,-60,52,-44,52" />
+
+<item itemtype="Connector" uid="Connector-181" startpinid="ResistorDip-45-resistor2-ePin5" endpinid="Mega-1-12" pointList="-108,76,-64,76,-64,44,-44,44" />
+
+<item itemtype="Connector" uid="Connector-182" startpinid="ResistorDip-45-resistor1-ePin3" endpinid="Mega-1-11" pointList="-108,68,-68,68,-68,36,-44,36" />
+
+<item itemtype="Connector" uid="Connector-183" startpinid="ResistorDip-45-resistor0-ePin1" endpinid="Mega-1-10" pointList="-108,60,-72,60,-72,28,-44,28" />
+
+<item itemtype="Connector" uid="Connector-184" startpinid="ResistorDip-43-resistor2-ePin5" endpinid="Mega-1-9" pointList="-108,36,-80,36,-80,20,-44,20" />
+
+<item itemtype="Connector" uid="Connector-185" startpinid="ResistorDip-43-resistor1-ePin3" endpinid="Mega-1-8" pointList="-108,28,-88,28,-88,12,-44,12" />
+
+<item itemtype="Connector" uid="Connector-186" startpinid="ResistorDip-43-resistor0-ePin1" endpinid="Mega-1-7" pointList="-108,20,-96,20,-96,4,-44,4,-44,-4" />
+
+<item itemtype="Connector" uid="Connector-189" startpinid="Mega-1-GND0" endpinid="Node-48-0" pointList="-44,60,-56,60,-56,116,-92,116" />
+
+<item itemtype="Connector" uid="Connector-190" startpinid="Node-48-2" endpinid="AudioOut-8-rPin" pointList="-92,116,-144,116" />
+
+<item itemtype="Connector" uid="Connector-191" startpinid="LedRgb-38-Pin3" endpinid="Node-49-1" pointList="-252,-44,-292,-44" />
+
+<item itemtype="Connector" uid="Connector-192" startpinid="LedRgb-3-Pin3" endpinid="Node-49-0" pointList="-252,-84,-292,-84,-292,-44" />
+
+<item itemtype="Connector" uid="Connector-194" startpinid="LedRgb-40-Pin3" endpinid="Node-50-1" pointList="-252,-8,-292,-8" />
+
+<item itemtype="Connector" uid="Connector-195" startpinid="Node-49-2" endpinid="Node-50-0" pointList="-292,-44,-292,-8" />
+
+<item itemtype="Connector" uid="Connector-197" startpinid="LedRgb-42-Pin3" endpinid="Node-51-1" pointList="-252,28,-292,28" />
+
+<item itemtype="Connector" uid="Connector-198" startpinid="Node-50-2" endpinid="Node-51-0" pointList="-292,-8,-292,28" />
+
+<item itemtype="Connector" uid="Connector-200" startpinid="LedRgb-44-Pin3" endpinid="Node-52-1" pointList="-252,68,-292,68" />
+
+<item itemtype="Connector" uid="Connector-201" startpinid="Node-51-2" endpinid="Node-52-0" pointList="-292,28,-292,68" />
+
+<item itemtype="Connector" uid="Connector-202" startpinid="Node-52-2" endpinid="Node-48-1" pointList="-292,68,-292,164,-92,164,-92,116" />
+
+<item itemtype="Connector" uid="Connector-214" startpinid="ResistorDip-39-resistor0-ePin1" endpinid="Mega-1-17" pointList="-108,-52,-88,-52,-88,-100,-44,-100" />
+
+<item itemtype="Connector" uid="Connector-119" startpinid="KeyPad-9-Pin3" endpinid="Mega-1-A15" pointList="236,-52,268,-52,268,-140,100,-140" />
+
+<item itemtype="Connector" uid="Connector-116" startpinid="KeyPad-9-Pin0" endpinid="Mega-1-A12" pointList="236,-100,248,-100,248,-116,100,-116" />
+
+<item itemtype="Connector" uid="Connector-224" startpinid="ResistorDip-39-resistor1-ePin3" endpinid="Mega-1-6" pointList="-108,-44,-80,-44,-80,-12,-44,-12" />
+
+<item itemtype="Connector" uid="Connector-225" startpinid="SerialPort-16-pin0" endpinid="Mega-1-19" pointList="-252,-140,-68,-140,-68,-116,-44,-116" />
+
+<item itemtype="Connector" uid="Connector-226" startpinid="SerialPort-16-pin1" endpinid="Mega-1-18" pointList="-252,-124,-76,-124,-76,-108,-44,-108" />
+
+</circuit>
